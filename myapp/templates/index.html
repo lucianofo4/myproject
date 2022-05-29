@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>tabelas onibus</title>
+</head>
+
+<body>
+    <h2>tabela meio dia</h2>
+    
+    {% if names_from_context %}
+    <ul>
+        {% for name in names_from_context %}
+        <li>{{ name.name_value }} 
+        {% endfor %}
+    {% endif %}
+    
+    </ul>
+
+    
+    
+    
+    
+    
+</body>
+
+</html>
